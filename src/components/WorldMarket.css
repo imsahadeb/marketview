@@ -1,0 +1,60 @@
+#worldmarket{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+   
+    
+}
+
+#cards{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    flex-direction: row;
+    box-shadow: -1px -1px 10px -1px rgb(117, 109, 109);
+
+}
+
+.card{
+    margin: 10px;
+    width: 300px;
+    height: 80px;
+    box-shadow: -1px -1px 10px -1px rgb(117, 109, 109);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: .8rem;
+    padding: 10px;
+
+}
+.left{
+   
+    
+
+}
+.right{
+  align-items: flex-end;
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.last-five-day-box{
+    display: flex;
+    flex-direction: row;
+
+}
+.day-box{
+    width: 15px;
+    height: 7px;
+    background-color: rgb(16, 100, 16);
+    margin-left: 10px;
+}
+
+.day-box.negative{
+    background-color: rgb(185, 52, 52);
+}
