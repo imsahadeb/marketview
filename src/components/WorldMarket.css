@@ -4,6 +4,9 @@
     width: 100%;
     padding-top: 10px;
     padding-left: 20px;
+    overflow-Y: scroll;
+    padding-bottom: 50px;
+ 
    
     
 }
@@ -15,46 +18,61 @@
     padding: 10px;
     flex-direction: row;
     box-shadow: -1px -1px 10px -1px rgb(117, 109, 109);
+   
 
 }
 
 .card{
-    margin: 10px;
+    margin: 5px;
     width: 300px;
-    height: 80px;
+    height: 70px;
     box-shadow: -1px -1px 10px -1px rgb(117, 109, 109);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     font-size: .8rem;
     padding: 10px;
 
 }
-.left{
-   
-    
-
+.index-title{
+    height: 40px;
+    font-size: 1.2rem;
 }
-.right{
-  align-items: flex-end;
-  justify-content: flex-end;
-  display: flex;
-  flex-direction: column;
-
+.index-value{
+    height: 30px;
+    align-items: center;
+    display: flex;
 }
 
-.last-five-day-box{
+.index-change{
     display: flex;
     flex-direction: row;
-
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    /* border: 1px solid red; */
 }
-.day-box{
-    width: 15px;
-    height: 7px;
-    background-color: rgb(16, 100, 16);
-    margin-left: 10px;
+/* .index-change-current-day{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+} */
+.index-change-past-day{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
 }
-
-.day-box.negative{
-    background-color: rgb(185, 52, 52);
+.indicator{
+    display: flex;
+    flex-direction: row;
+  
+}
+.prev-day-indicator{
+    width: 14px;
+    height: 6px;
+    background-color: rgb(8, 82, 18);
+    margin-left: 5px;
+}
+.negative{
+    background-color: rgb(172, 49, 49);
 }
