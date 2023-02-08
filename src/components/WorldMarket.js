@@ -6,26 +6,28 @@ function WorldMarket() {
         <div id="worldmarket">
             <h3>Asian Market</h3>
             <div id="cards">
-                <Card index={"SGX Nifty"} />
-                <Card index={"Nikkei"} />
-                <Card index={"Hang Seng"} />
-                <Card index={"Shanghai Composite"} />
-                <Card index={"KOSPI"} />
+            <Card symbol={"IBM"} symbolName={"IBM"} />
+            <Card symbol={"RELIANCE.BSE"} symbolName={"RELIANCE"} />
+            <Card symbol={"META"} symbolName={"FACEBOOK"} />
+                {/* <Card symbol={"Nikkei"} />
+                <Card symbol={"Hang Seng"} />
+                <Card symbol={"Shanghai Composite"} />
+                <Card symbol={"KOSPI"} /> */}
             </div>
 
             <h3>Us Market</h3>
             <div id="cards">
-                <Card index={"Dow Jones"} />
-                <Card index={"Nasdaq"} />
-                <Card index={"S&P 500"} />
+                {/* <Card symbol={"Dow Jones"} />
+                <Card symbol={"Nasdaq"} />
+                <Card symbol={"S&P 500"} /> */}
                
             </div>
 
             <h3>Eu Market</h3>
             <div id="cards">
-                <Card index={"FTSE"} />
-                <Card index={"CAC"} />
-                <Card index={"DAX"} />
+                {/* <Card symbol={"FTSE"} />
+                <Card symbol={"CAC"} />
+                <Card symbol={"DAX"} /> */}
                
             </div>
 
